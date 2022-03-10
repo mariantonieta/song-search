@@ -5,9 +5,63 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+background-color: black;
+color:#eeececde;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.inputText{
+  margin: 15px;
+  font-size: 1rem;
+  background-color: transparent;
+  outline: none;
+  width: 97%;
+  border: none;
+  display: block  ;
+
+background-color: #f3f3f3cb;
+border-radius: 10px;
+height: 25px;
+color: rgba(0, 0, 0, 0.966);
+border: #f5ebe0;
+}
+.inputBtn{
+  margin: 5px;
+  font-weight: bold;
+  color: black;
+  width: 80px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(194, 194, 194);
+  border-color: #ddbea9;
+}
+img{
+width: 200px;
+height: 200px;
+border-radius: 50%;
+}
+nav{
+  color: aliceblue;
+}
+
+@media screen and (min-width: 1024px) {
+  .grid-1-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: 2rem;
+  }
+
+  .grid-1-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: start;
+    gap: 2rem;
+  }
 }
